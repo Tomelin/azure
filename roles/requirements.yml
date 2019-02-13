@@ -2,5 +2,4 @@
 #  name: azure
 - src: yatesr.timezone
 - src: zaiste.essentials
-- src: williamyeh.oracle-java
 - src: zaiste.security
