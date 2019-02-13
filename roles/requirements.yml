@@ -1,0 +1,7 @@
+- src: https://github.com/Tomelin/ansible_tomelin
+  version: master
+  name: azure
+- src: yatesr.timezone
+- src: zaiste.essentials
+- src: williamyeh.oracle-java
+- src: zaiste.security

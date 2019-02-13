@@ -1,0 +1,13 @@
+---
+#comment
+- name: VM from Template
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  roles:
+    - azure
+
+  tasks:
+    - name: Hello World!
+      shell: echo "Hi! Tower is working."
