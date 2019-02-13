@@ -11,3 +11,7 @@
   tasks:
     - name: Hello World!
       shell: echo "Hi! Tower is working."
+
+  pre_tasks:
+    - name: Hello World!
+      shell: echo "Hi! Tower is working."
