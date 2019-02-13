@@ -4,13 +4,13 @@
 #  connection: local
 #  gather_facts: false
 
-#  roles:
-#    - azure
+  roles:
+    - azure
 
   tasks:
     - name: Hello World!
       shell: echo "Hi! Tower is working."
 
   pre_tasks:
-    - name: Hello World!
-      shell: echo "Hi! Tower is working."
+    - name: Pre tasks_Hello World!
+      shell: echo "Pre taskas - Hi! Tower is working."
