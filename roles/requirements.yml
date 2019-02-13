@@ -1,5 +1,5 @@
-#- src: https://github.com/Tomelin/ansible_tomelin
-#  name: azure
+- src: https://github.com/Tomelin/ansible_tomelin
+  name: azure
 - src: yatesr.timezone
 - src: zaiste.essentials
 - src: zaiste.security
