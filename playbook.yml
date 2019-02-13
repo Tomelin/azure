@@ -1,12 +1,11 @@
 ---
-#comment
 - name: VM from Template
   hosts: localhost
   connection: local
   gather_facts: false
 
-  roles:
-    - azure
+#  roles:
+#    - azure
 
   tasks:
     - name: Hello World!
